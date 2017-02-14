@@ -3,8 +3,7 @@ This is where you find the necessary shell scripts to run the tests used in my t
 
 \underline{\textbf{\ac{VPN} Client Scripts:}}
 
-\begin{itemize}
-    \item \textbf{vpnstart.sh:} Allows for starting the client side \ac{VPN} remotely from the server using an \ac{SSH} connection.  The script will start a Wireshark capture, initiate the tunnel connection, and then conduct a test download.  The Wireshark capture allows for verifying the \ac{VPN} tunnel behaves as expected for the desired test.
+* item **vpnstart.sh:** Allows for starting the client side \ac{VPN} remotely from the server using an \ac{SSH} connection.  The script will start a Wireshark capture, initiate the tunnel connection, and then conduct a test download.  The Wireshark capture allows for verifying the \ac{VPN} tunnel behaves as expected for the desired test.
     
     \vspace{1.5mm}
     \item \textbf{download.sh:} Allows for initiating the 10 downloads using \emph{wget} in quiet mode.  This script could easily be adjusted to perform any number of downloads required.  Quiet mode was used to prevent unnecessary download statistics being reported to the server via the \ac{SSH} connection.
