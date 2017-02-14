@@ -8,8 +8,8 @@ I changed the udp.c file to allow for MPUDP between the VPN client and server.  
 
 There are 2 Linux kernel modules needed to allow for MPUDP testing:
   
-  -MPUDP_recv: allows for changing the source address of incoming packets to the "master" flow address.  This is needed for OpenVPN to prevent dropping packets from an unknown source.
+* **MPUDP_recv:** allows for changing the source address of incoming packets to the "master" flow address.  This is needed for OpenVPN to prevent dropping packets from an unknown source.
  
- -MPUDP_send: allows for probabilistically changing the destination of outgoing packets.  By changing the destination to an alternate address, the packets will be routed over each path available.
+* **MPUDP_send:** allows for probabilistically changing the destination of outgoing packets.  By changing the destination to an alternate address, the packets will be routed over each path available.
   
 
