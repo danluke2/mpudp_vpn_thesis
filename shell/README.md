@@ -1,7 +1,7 @@
 This is where you find the necessary shell scripts to run the tests used in my thesis.  Here is a breakdown of what each script does:
 
 
-\underline{\textbf{\ac{VPN} Client Scripts:}}
+__VPN Client Scripts:__
 
 * item **vpnstart.sh:** Allows for starting the client side \ac{VPN} remotely from the server using an \ac{SSH} connection.  The script will start a Wireshark capture, initiate the tunnel connection, and then conduct a test download.  The Wireshark capture allows for verifying the \ac{VPN} tunnel behaves as expected for the desired test.
     
