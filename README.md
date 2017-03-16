@@ -18,4 +18,23 @@ The topology used for testing can be built physically or through VM's.  All shel
 ![Alt text](/pics/sim_topology.png?raw=true)
 
 
+The IP addresses used during the testing were as follows:
 
+* **Client:**  
+    * Primary Link: 10.8.1.1
+    * Secondary Link: 10.8.2.2
+    * VPN Link: 10.8.0.6
+
+
+* **Server:**
+  * Primary Link: 10.8.1.11
+  * Secondary Link: 10.8.2.22
+  * Web Link: 10.8.3.33
+  * VPN Link: 10.8.0.1
+
+
+* **Web:** 10.8.3.3
+
+* **Primary Bridge:** 10.8.1.110
+
+* **Secondary Bridge:** 10.8.2.220
