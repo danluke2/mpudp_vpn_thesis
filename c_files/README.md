@@ -8,7 +8,15 @@ of the C files used for implementing the MPUDP protocol.
 
 __MPUDP C Files:__
 
-* **udp.c:**  The udp.c file is found in directory 
+* **udp.c:**  ORIGINAL FILE THAT NO LONGER WORKS FOR COMPILING: 
+The udp.c file is found in directory 
+\net\ipv4\ .  This file was modified to include branches 
+in the udp\_recmsg and udp\_sendmsg functions.  Code was 
+also added to export symbols of functions used in the 
+kernel modules.
+
+* **udp_updated.c:**  Rename to udp.c when inserting: 
+The udp.c file is found in directory 
 \net\ipv4\ .  This file was modified to include branches 
 in the udp\_recmsg and udp\_sendmsg functions.  Code was 
 also added to export symbols of functions used in the 
